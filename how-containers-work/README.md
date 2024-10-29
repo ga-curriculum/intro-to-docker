@@ -66,7 +66,7 @@ Server: Docker Engine - Community
 
 The development process of creating a container involves a few simple steps.
 
-Let's pretend we have a Dockerfile for an application called `my-app`. Here are some general steps a developer would take to build and image and run a container from this file.
+Let's pretend we have a Dockerfile for an application called `my-app`. Here are some general steps a developer would take to build an image and run a container from this file.
 
 ### 1. **Dockerfile**
 
