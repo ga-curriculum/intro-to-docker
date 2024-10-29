@@ -21,9 +21,9 @@ A Docker **image** is like a ready-to-go package that includes everything an app
 
 When you start a container from an image, this package gets loaded into its own secure, isolated space on the computer, accessible only to that container. The container then runs the app (like Chrome) using only the specific resources assigned to it.
 
-**Interesting Note:** Since only Linux uses a kernel with namespacing, Docker installs a Linux virtual machine (VM) on Windows and macOS. When Docker runs, it creates containers inside this Linux VM, allowing the Linux kernel to manage resources and isolation.
+> **Interesting Note:** Since only Linux uses a kernel with namespacing, Docker installs a Linux virtual machine (VM) on Windows and macOS. When Docker runs, it creates containers inside this Linux VM, allowing the Linux kernel to manage resources and isolation.
 
-If you run `docker version` in your terminal, you'll see the OS as Linux in the output:
+With Docker installed, running `docker version` in the terminal will reveal the OS as Linux in the output:
 
 ```
 $ docker version
@@ -64,17 +64,21 @@ Server: Docker Engine - Community
 
 <br>
 
-Creating a container involves a few steps, starting with a Dockerfile:
+The development process of creating a container involves a few simple steps.
+
+Let's pretend we have a Dockerfile for an application called `my-app`. Here are some general steps a developer would take to build and image and run a container from this file.
 
 ### 1. **Dockerfile**
 
-This text file acts as a blueprint for setting up an environment. It lists everything the app needs, like files, packages, and configurations. When Docker reads the Dockerfile, it follows these instructions to set up the app’s environment layer by layer.
+The text file acts as a blueprint for setting up an environment. It lists everything the app needs, like files, packages, and configurations. When Docker reads the Dockerfile, it follows these instructions to set up the app’s environment layer by layer.
 
 ```bash
 docker build -t my-app          **** Example only ****
 ```
 
-Once this command runs, Docker compiles everything specified in the Dockerfile into a Docker image by the same name.
+<br>
+
+Once this command runs, Docker compiles everything specified in the Dockerfile into a Docker image by the same name `my-app`.
 
 ### 2. **Image**
 
@@ -84,7 +88,9 @@ Based on the Dockerfile, Docker creates an image—a packaged snapshot of everyt
 docker run -p 3000:3000 my-app          **** Example only ****
 ```
 
-Now, the container is running, and you can access the app at `localhost:3000`.
+<br>
+
+This command would start or _run_ the image, giving the developer access to the app at port 3000 on their machine.
 
 ### 3. **Container**
 
