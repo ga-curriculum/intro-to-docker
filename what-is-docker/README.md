@@ -41,13 +41,18 @@ Containers took the idea of isolation to the next level. Unlike VMs, containers 
 
 ## Under the Hood: VMs vs Containers
 
-The illustration below, provided by Docker, compares the infrastructure of VMs (left) with that of containers (right).
+The illustration below compares the infrastructure of Containers (left) with that of VMs (right).
 
-| Virtual Machines                                                                                                     | Containers                                                                                   |
-| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Each VM contains a full operating system and emulates hardware. This makes VMs resource-heavy and slower to boot up. | Containers share the host system’s kernel, which makes them lightweight, fast, and portable. |
+- Containers share the host system’s kernel, which makes them lightweight, fast, and portable.
+- Each VM contains a full operating system and emulates hardware. This makes VMs resource-heavy and slower to boot up.
 
-![VM vs Containers Infrastructure](./assets/vm-vs-container.jpg)
+<br>
+
+<img src="./assets/Docker-and-Vm-blog-image_result-1.png" alt="VM vs Containers Infrastructure" style="width:800px;"/>
+
+[source](https://k21academy.com/docker-kubernetes/docker-vs-virtual-machine/)
+
+<br>
 
 Containers are an efficient, granular tool for combining software into enterprise-level applications and services.
 
