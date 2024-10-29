@@ -1,10 +1,10 @@
 <h1>
-  <span class="headline">[tktk Module Name]</span>
+  <span class="headline">Intro to Docker</span>
   <span class="subhead">References</span>
 </h1>
 
 ## Lesson references
 
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
-- [tktk descriptive name of link](https://generalassemb.ly/tktk)
+- [Docker Underlying Technology](https://docs.docker.com/engine/docker-overview/#the-underlying-technology)
+- [Wikipedia: Namespaces](https://en.wikipedia.org/wiki/Linux_namespaces)
+- [Cgroups](https://en.wikipedia.org/wiki/Cgroups)

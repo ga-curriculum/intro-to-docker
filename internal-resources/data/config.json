@@ -1,0 +1,115 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "Intro to Docker",
+    "name": "intro-to-docker",
+    "type": "Lesson"
+  },
+  "courses": [
+    {
+      "name": "fallback",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "What is Docker?",
+          "dirName": "what-is-docker",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "The Main Components of Docker",
+          "dirName": "the-main-components-of-docker",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "How Containers Work",
+          "dirName": "how-containers-work",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Debate: Is Docker Here to Stay?",
+          "dirName": "is-docker-here-to-stay",
+          "type": "Content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "mea",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "What is Docker?",
+          "dirName": "what-is-docker",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "The Main Components of Docker",
+          "dirName": "the-main-components-of-docker",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "How Containers Work",
+          "dirName": "how-containers-work",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Debate: Is Docker Here to Stay?",
+          "dirName": "is-docker-here-to-stay",
+          "type": "Level Up content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}
