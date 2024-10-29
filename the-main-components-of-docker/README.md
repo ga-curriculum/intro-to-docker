@@ -26,7 +26,7 @@ Docker works by providing a way to create and manage containers. Here are the ma
 
 <img src="./assets/main-components-of-docker.gif" alt="Main Components of Docker" style="width:500px;"/>
 
-[Source](https://www.linkedin.com/posts/raghavdua_docker-key-components-explained-understanding-activity-7229783032818188288--3Bs?utm_source=share&utm_medium=member_desktop)
+[source](https://www.linkedin.com/posts/raghavdua_docker-key-components-explained-understanding-activity-7229783032818188288--3Bs?utm_source=share&utm_medium=member_desktop)
 
 ## At a High Level
 

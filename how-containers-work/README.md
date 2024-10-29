@@ -11,7 +11,7 @@ In every operating system, there’s a kernel—a central process that controls 
 
 <img src="./assets/containers-on-box.png" alt="Linux Kernel and Containers" style="width:400px;"/>
 
-[Source](https://codeahoy.com/img/dockercontainers/containers-on-box.png)
+[source](https://codeahoy.com/img/dockercontainers/containers-on-box.png)
 
 This is what a container is based on. A container is not a physical construct that exists inside your computer. Instead it is a process or set of processes that have a grouping of resources specifically assigned to it. Resources like memory, RAM, CPU, network.
 
