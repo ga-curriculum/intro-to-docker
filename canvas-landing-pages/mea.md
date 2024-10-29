@@ -18,10 +18,10 @@ This module provides an introduction to the concept of containers and Docker as 
 
 ## Level Up Content
 
-| Lesson                                                                | Est. Delivery Time | Skills                                                                                                                         |
-| --------------------------------------------------------------------- | :----------------: | ------------------------------------------------------------------------------------------------------------------------------ |
-| [Debate: Is Docker Here to Stay](../is-docker-here-to-stay/README.md) |       20 min       | Critically evaluating Docker's strengths and limitations, articulating and defending perspectives on containerization’s future |
-| **Total content**                                                     |       20 min       |                                                                                                                                |
+| Lesson                                                                | Est. Delivery Time | Skills                                                                                                                       |
+| --------------------------------------------------------------------- | :----------------: | ---------------------------------------------------------------------------------------------------------------------------- |
+| [Debate: Is Docker Here to Stay](../is-docker-here-to-stay/README.md) |       20 min       | Critically evaluating Docker's strengths and limitations, presenting and defending perspectives on containerization’s future |
+| **Total content**                                                     |       20 min       |                                                                                                                              |
 
 ## References
 
