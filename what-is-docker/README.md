@@ -23,7 +23,7 @@ More often than not, an app that was built on a developer's machine did not work
 
 Things started to improve with the introduction of **virtual machines** (VMs).
 
-A VM is essentially a simulated computer system that mimics the functions of a physical machine. By running multiple VMs on the same hardware, developers could separate different applications and reduce conflicts between them. This was a huge step forward because it helped prevent the "it works on my machine!" issues caused by differing environments.
+A VM is basically a simulated computer system that mimics the functions of a physical machine. By running multiple VMs on the same hardware, developers could separate different applications and reduce conflicts between them. This was a huge step forward because it helped prevent the "it works on my machine!" issues caused by differing environments.
 
 However, VMs were far from perfect. Each VM required its own full operating system, making them heavy on storage, tough to maintain, and resource-hungry.
 
