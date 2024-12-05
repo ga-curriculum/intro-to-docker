@@ -3,9 +3,9 @@
   <span class="subhead">Instructor Guide</span>
 </h1>
 
-***Nothing here yet.***
+## Notes for maintainers
 
----
+Don't get sued. Docker has very strict trademark guidelines available [here](https://www.docker.com/legal/trademark-guidelines/). These guidelines ban the use of Docker's logo or imitations of their logo, even in educational material.
 
 🏗️ **Under Construction**
 

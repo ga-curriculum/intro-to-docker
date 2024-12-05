@@ -1,16 +1,16 @@
 <h1>
   <span class="headline">Intro to Docker</span>
-  <span class="subhead">Debate: Is Docker Here to Stay?</span>
+  <span class="subhead">Is Docker Here to Stay?</span>
 </h1>
 
 **Learning objective:** By the end of this lesson, students will be able to evaluate the advantages and limitations of Docker and containerization, and present well-supported arguments on whether container-based architecture principles have long-term viability in software development.
-
-Docker and containerization have taken the developer world by storm, but is it a lasting trend, or could it fade with the arrival of new technologies? Let’s break down this question together in a debate!
 
 <div class="activity discussion">
   <h2 class="title">Debate and Defend: Is Docker Here to Stay?</h2>
   <span class="minutes">20</span>
 </div>
+
+Docker and containerization have taken the developer world by storm, but is it a lasting trend, or could it fade with the arrival of new technologies? Let’s break down this question together in a debate!
 
 Let's divide the room into two groups: **Pro Docker** and **No Docker**.
 
