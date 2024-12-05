@@ -3,57 +3,73 @@
   <span class="subhead">What is Docker?</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to explain Docker's purpose and identify the benefits of containerization over traditional virtual machines.
+**Learning objective:** By the end of this lesson, students will be able to explain the purpose of Docker software and identify the benefits of containerization over traditional virtual machines.
 
 ## What is Docker?
 
-Docker is a platform designed to make it easier to create, deploy, and run applications by using **containers**. It allows developers to package an application with all of its dependencies into a standardized unit for software development.
+<!-- Don't get sued. Docker has very strict trademark guidelines available here: https://www.docker.com/legal/trademark-guidelines/. These guidelines ban the use of Docker's logo or imitations of their logo, even in educational material. -->
 
-![whales!](https://www.brianweet.com/assets/docker-blog-1/docker-logo.png)
+Docker is a platform designed to make creating, deploying, and running applications easier by using *containers*. Docker containers hold an application and its configurations and dependencies, all the way to the operating system level, in a single package.
 
-## The Problems Docker Solves
+Developers can build an application inside a container when starting a new project or migrate legacy apps that haven't yet been containerized into containers. Those containers can then be deployed into a production environment with relatively little configuration.
+
+> 📚 A *container* is a lightweight, portable, and isolated unit of software that packages an application with its dependencies, tooling, libraries, and configuration, allowing it to run consistently across different environments.
+
+![A collection of containers that could maybe fit on the back of a certain whale.](./assets/docker-not-logo.png)
+
+## The problems Docker solves
+
+For the most part, developers have always created apps on their own machines and then needed to deploy them to server machines so users can access them. How this has been accomplished has evolved through time, ultimately leading to the creation of Docker.
 
 Let's review some history, shall we?
 
-Back in the early days of [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0) (think early 2000s), building and deploying apps was like living in two completely different worlds. Developers would create apps on their own computers, but deploying them meant using totally different machines—ones that needed to be carefully set up, or "provisioned," with the right hardware and software. And it wasn’t quick! Getting those deployment machines ready could take days, even weeks.
+In the early 2000s, when [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0) apps were gaining traction, building and deploying apps was like living in two completely different worlds. Like most modern development, developers would start by creating an app on their own machine.
 
-More often than not, an app that was built on a developer's machine did not work properly in production. It was a frustrating game of ["but it works on my machine!"](https://static.packt-cdn.com/products/9781787286986/graphics/B06455_07_01.jpg)
+That's where the similarities ended, though. Production machines had to be carefully set up, or *provisioned*, with the proper hardware and software. This wasn't quick - getting a production computer ready could take days or weeks in extreme cases.
 
-## A Modern Solution: Virtual Machines
+An app built on a developer's machine frequently did not work correctly in production. Minor configuration differences between a development device and a production server could cause apps to crash (or, even worse, intermittently behave erratically). It was a frustrating game of "but it works on my machine!"
 
-Things started to improve with the introduction of **virtual machines** (VMs).
+> 📚 *Provisioning* is the process of configuring hardware, software, and services to be used in an IT environment.
 
-A VM is basically a simulated computer system that mimics the functions of a physical machine. By running multiple VMs on the same hardware, developers could separate different applications and reduce conflicts between them. This was a huge step forward because it helped prevent the "it works on my machine!" issues caused by differing environments.
+## A modern solution: virtual machines (VMs)
 
-However, VMs were far from perfect. Each VM required its own full operating system, making them heavy on storage, tough to maintain, and resource-hungry.
+Things started to improve with the introduction of *virtual machines* or *VMs*. A VM is basically a simulated computer system that mimics the functions of a physical machine. Its access to hardware is controlled by a *hypervisor*, which acts as a traffic cop that either permits or denies access to compute resources.
 
-## A _Better_ Modern Solution: Containers
+By running multiple VMs on the same hardware, developers could separate different applications and reduce conflicts between them. This was a huge step forward because it helped prevent the "it works on my machine!" issues caused by differing environments.
 
-While VMs helped, developers kept looking for a leaner, more efficient solution.
+However, VMs were far from a perfect solution to deployment issues. Each VM requires a full operating system, making them heavy on storage, challenging to maintain, and resource-hungry.
 
-Enter **_containers_**.
+> 📚 A *VM* is a software-based emulation of a physical computer. It runs a complete operating system like a separate physical machine would. Each VM on a machine is fully isolated and runs on the dedicated computing, memory, and storage resources provided by the *hypervisor*.
 
-> A _container_ is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, libraries, and settings.
+VMs often operate as shown below - working within a host operating system, where the host OS treats them as just another application. However, a host OS isn't required, as many hypervisors can operate alone.
 
-Containers took the idea of isolation to the next level. Unlike VMs, containers share the same operating system **_kernel_** but still keep application environments separate. This made them much lighter and faster to start up. They also use fewer resources, allowing many more containers to run on the same hardware, making scaling up and down much easier.
+![A collection of containers.](./assets/vms.png)
 
-> A _kernel_ is the core of an operating system that manages communication between the hardware and software, ensuring efficient use of system resources.
+## A better modern solution: containers
 
-## Under the Hood: VMs vs Containers
+While VMs helped, organizations needed leaner and more efficient solutions to reduce the cost of running apps.
 
-The illustration below compares the infrastructure of Containers (left) with that of VMs (right).
+Enter containers.
 
-- Containers share the host system’s kernel, which makes them lightweight, fast, and portable.
-- Each VM contains a full operating system and emulates hardware. This makes VMs resource-heavy and slower to boot up.
+Containers took the idea of isolation to the next level. Like VMs, containers keep application environments separate. However, unlike VMs, containers share the same operating system *kernel*. This gives them numerous benefits over a VM:
 
-<br>
+- They require less storage space.
+- They use fewer system resources.
+- They're faster to start up.
+- They're more portable, as no hypervisor is required to manage them.
 
-<img src="./assets/Docker-and-Vm-blog-image_result-1.png" alt="VM vs Containers Infrastructure" style="width:800px;"/>
+![Containers vs. VMs](./assets/containers-vs-vms-metrics.png)
 
-[source](https://k21academy.com/docker-kubernetes/docker-vs-virtual-machine/)
+Because they use fewer resources, many more containers can run on the same hardware, making scaling up and down more manageable using the same hardware.
 
-<br>
+> 📚 A *kernel* is the core of an operating system. It manages communication between the hardware of a computer and the software it runs.
+
+## Under the hood: VMs vs containers
+
+The illustration below compares the infrastructure of Docker containers with that of VMs.
+
+![Containers vs. VMs - infrastructure](./assets/containers-vs-vms-infrastructure.png)
 
 Containers are an efficient, granular tool for combining software into enterprise-level applications and services.
 
-Docker is a tool that _packages applications into containers_, including all dependencies, to ensure they run consistently across different environments.
+Docker is a tool that *packages applications into containers*, including all dependencies, to ensure they run consistently across different environments.

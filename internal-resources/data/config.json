@@ -6,36 +6,58 @@
   "repo": {
     "friendlyName": "Intro to Docker",
     "name": "intro-to-docker",
-    "type": "Lesson"
+    "type": "Lesson",
+    "about": "",
+    "starterCode": "",
+    "solutionCode": "",
+    "deployedSite": ""
   },
   "courses": [
     {
-      "name": "fallback",
+      "name": "itb",
+      "courseAcronym": "",
+      "courseFullName": "",
       "logoUrl": "",
       "microlessons": [
         {
           "friendlyName": "What is Docker?",
           "dirName": "what-is-docker",
           "type": "Content",
-          "videoUrl": ""
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         },
         {
           "friendlyName": "The Main Components of Docker",
           "dirName": "the-main-components-of-docker",
           "type": "Content",
-          "videoUrl": ""
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         },
         {
           "friendlyName": "How Containers Work",
           "dirName": "how-containers-work",
           "type": "Content",
-          "videoUrl": ""
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         },
         {
           "friendlyName": "Debate: Is Docker Here to Stay?",
           "dirName": "is-docker-here-to-stay",
-          "type": "Content",
-          "videoUrl": ""
+          "type": "Level Up content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         }
       ],
       "isHeaderShown": true,
@@ -62,31 +84,118 @@
     },
     {
       "name": "mea",
+      "courseAcronym": "",
+      "courseFullName": "",
       "logoUrl": "",
       "microlessons": [
         {
           "friendlyName": "What is Docker?",
           "dirName": "what-is-docker",
           "type": "Content",
-          "videoUrl": ""
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         },
         {
           "friendlyName": "The Main Components of Docker",
           "dirName": "the-main-components-of-docker",
           "type": "Content",
-          "videoUrl": ""
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         },
         {
           "friendlyName": "How Containers Work",
           "dirName": "how-containers-work",
           "type": "Content",
-          "videoUrl": ""
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         },
         {
           "friendlyName": "Debate: Is Docker Here to Stay?",
           "dirName": "is-docker-here-to-stay",
           "type": "Level Up content",
-          "videoUrl": ""
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "fallback",
+      "courseAcronym": "",
+      "courseFullName": "",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "What is Docker?",
+          "dirName": "what-is-docker",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "The Main Components of Docker",
+          "dirName": "the-main-components-of-docker",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "How Containers Work",
+          "dirName": "how-containers-work",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Debate: Is Docker Here to Stay?",
+          "dirName": "is-docker-here-to-stay",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         }
       ],
       "isHeaderShown": true,

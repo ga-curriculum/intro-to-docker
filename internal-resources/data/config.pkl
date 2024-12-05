@@ -20,14 +20,15 @@ repo {
 
 courses {
   new {
-    // Do not remove this fallback course!
-    name = "fallback"
+    name = "itb"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.whatIsDocker
       mls.theMainComponentsOfDocker
       mls.howContainersWork
-      mls.isDockerHereToStay
+      (mls.isDockerHereToStay) {
+        type = "Level Up content"
+      }
     }
   }
   new {
@@ -40,6 +41,17 @@ courses {
       (mls.isDockerHereToStay) {
         type = "Level Up content"
       }
+    }
+  }
+  new {
+    // Do not remove this fallback course!
+    name = "fallback"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.whatIsDocker
+      mls.theMainComponentsOfDocker
+      mls.howContainersWork
+      mls.isDockerHereToStay
     }
   }
 }
