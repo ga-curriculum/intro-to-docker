@@ -7,7 +7,7 @@
 
 ## How Docker works
 
-Docker is the most popular open-source platform for building applications with containers. While it introduces new features, many of its components and principles existed before. Written in the programming language [Go](https://go.dev/), Docker leverages Linux kernel features like [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces) and [cgroups](https://en.wikipedia.org/wiki/Cgroups) to create uniform, isolated environments.
+Docker is the most popular open-source platform for building applications with containers. While it introduces new features, many of its components and principles existed before. Written in the [Go](https://docs.docker.com/engine/docker-overview/#the-underlying-technology) programming language , Docker leverages Linux kernel features like [namespaces](https://en.wikipedia.org/wiki/Linux_namespaces) and [cgroups](https://en.wikipedia.org/wiki/Cgroups) to create uniform, isolated environments.
 
 The main goal of Docker is to **replicate the development environment in production**, benefiting both back-end and front-end applications. While running Docker locally is useful, its true advantages emerge when deploying on production machines.
 
