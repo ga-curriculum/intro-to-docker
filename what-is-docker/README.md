@@ -73,3 +73,13 @@ The illustration below compares the infrastructure of Docker containers with tha
 Containers are an efficient, granular tool for combining software into enterprise-level applications and services.
 
 Docker is a tool that *packages applications into containers*, including all dependencies, to ensure they run consistently across different environments.
+
+## Why this matters
+
+Docker enables organizations to deploy and scale rapidly while reducing costs. This [case study of switching to docker within ING Bank](./assets/ing-delivers-value-to-customers-faster-with-1500-deployments-a-week-with-docker.pdf) provides a great example. After switching to Docker containers, ING saw significant benefits, including:
+
+- Over 50% less infrastructure resource consumption.
+- Accelerated deployment, with the ability to release code within 15 minutes after check-in.
+- Standardization and scale.
+- Ultimately, this meant that over 1,500 software deployments per week could be made across the organization's internal and customer-facing apps.
+- Ultimately this meant that the quality of their software dramatically increased. Their iOS app went from an average one-star rating to consistently receiving an average of over four stars.
